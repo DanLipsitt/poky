@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+    "name": "Poky",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "image": "crops/poky:ubuntu-22.04",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "yocto-project.yocto-bitbake",
+                "ms-python.python",
+                "mads-hartmann.bash-ide-vscode",
+                "MLinha.yocto-project-dependency-visualizer"
+            ]
+        }
+    },
+    "runArgs": [
+        "--name",
+        "poky-devcontainer"
+    ]
+    // Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {},
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    // "forwardPorts": [],
+    // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+    // "remoteUser": "root"
+}

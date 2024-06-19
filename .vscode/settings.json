@@ -1,0 +1,21 @@
+{
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib",
+        "${workspaceFolder}/bitbake/lib",
+        "${workspaceFolder}/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/sources/poky/bitbake/lib",
+        "${workspaceFolder}/sources/poky/meta/lib",
+        "${workspaceFolder}/bitbake/lib",
+        "${workspaceFolder}/meta/lib"
+    ],
+    "files.associations": {
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    },
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/bitbake",
+    "bitbake.pathToEnvScript": "${workspaceFolder}/oe-init-build-env",
+    "esbonio.server.enabled": false
+}
