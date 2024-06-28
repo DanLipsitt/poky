@@ -15,4 +15,5 @@ jobs:
         with:
           runCmd: |
             . /workspaces/poky/oe-init-build-env &&
-            bitbake m4-native
+            bitbake m4-native &&
+            bitbake core-image-minimal
